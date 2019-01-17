@@ -114,6 +114,7 @@ input[type="radio"].visually-hidden {
 .main-header-slider {
   width: 376px;
   margin-top: 0;
+  padding: 0;
 }
 
 .main-slider-item {
@@ -139,6 +140,7 @@ input[type="radio"].visually-hidden {
   line-height: 24px;
   font-weight: 400;
   color: #283136;
+  margin-bottom: 30px;
 }
 
 .slider-description {
@@ -177,6 +179,7 @@ input[type="radio"].visually-hidden {
 .brands-list,
 .footer-social-list {
   list-style: none;
+  padding: 0;
 }
 
 .main-services-logo {
@@ -262,7 +265,29 @@ input[type="radio"].visually-hidden {
 }
 
 .main-content-company {
-  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding-top: 40px;
+}
+
+.content-company-left {
+  width: 650px;
+  margin-top: 40px;
+}
+
+.content-company-right {
+  width: 360px;
+}
+
+.company-quality-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.company-quality-item {
+  margin-right: 25px;
 }
 
 .content-company-title {
@@ -270,12 +295,29 @@ input[type="radio"].visually-hidden {
   line-height: 45px;
   font-weight: 500;
   color: #000000;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.content-company-list {
+  margin: 0;
+}
+
+.content-company-description {
+  margin: 0;
+  margin-bottom: 45px;
 }
 
 .company-list-title {
   color: #000000;
   font-weight: 700;
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.content-company-logo {
+  margin-bottom: 40px;
 }
 
 .quality-list-title {
@@ -284,6 +326,8 @@ input[type="radio"].visually-hidden {
   font-weight: 700;
   text-transform: uppercase;
   color: #000000;
+  margin: 0;
+  margin-bottom: 49px;
 }
 
 .quality-percent {
@@ -291,6 +335,8 @@ input[type="radio"].visually-hidden {
   line-height: 10px;
   font-weight: 700;
   color: #000000;
+  margin: 0;
+  margin-bottom: 35px;
 }
 
 .quality-description {
@@ -298,6 +344,11 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
   font-weight: 400;
   color: #283136;
+}
+
+.brands-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .brands-logo {
