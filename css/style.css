@@ -363,12 +363,29 @@ input[type="radio"].visually-hidden {
   opacity: 0.1;
 }
 
+.footer-map {
+  position: relative;
+}
+
+.map-list {
+  width: 271px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 54px;
+  left: 140px;
+  padding-left: 48px;
+  padding-bottom: 65px;
+}
+
 .map-title {
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
   text-transform: uppercase;
   color: #000000;
+  margin-top: 45px;
+  margin-right: 75px;
+  margin-bottom: 27px;
 }
 
 .map-list-address,
@@ -378,20 +395,78 @@ input[type="radio"].visually-hidden {
   font-weight: 400;
   font-style: normal;
   color: #666666;
+  margin: 0;
 }
 
-.map-link {
+.map-address-phone {
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.map-address {
+  margin-bottom: 19px;
+}
+
+.map-link-writeus {
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
   color: #ffffff;
   text-transform: uppercase;
   background-color: #fb565a;
+  padding: 15px 42px;
+  border-radius: 3px;
+}
+
+.map-link-writeus:hover,
+.map-link-writeus:focus {
+  background-color: #e74246;
+}
+
+.map-link-writeus:active {
+  box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+  background-color: #d7373b;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-social-discount {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-social-list {
+  width: 260px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-right: 139px;
 }
 
 .socila-link {
-  color: #ffffff;
+  width: 79px;
+  height: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color:#ffffff;
   background-color: #e1e1e1;
+}
+
+.socila-link:hover,
+.socila-link:focus {
+  background-color: #e74246;
+}
+
+.socila-link:active {
+  box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+  background-color: #d7373b;
+  fill-opacity: 0.3;
+}
+
+.wrapper-right-column {
+  margin-top: 60px;
 }
 
 .footer-title {
@@ -399,11 +474,14 @@ input[type="radio"].visually-hidden {
   line-height: 36px;
   font-weight: 700;
   color: #000000;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
-.description-discoun {
+.description-discount {
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
   color: #444444;
+  margin: 0;
 }
