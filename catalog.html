@@ -8,13 +8,12 @@
   </head>
   <body>
     <header class="inner-header">
-      <div class="container">
       <nav class="inner-header-navigation">
         <a class="inner-header-logo" href="index.html"><img class="inner-header-logo" src="img/nerds-logo.svg" width="160" height="65" alt="Логотип Нёрдс"></a>
         <ul class="inner-header-list">
           <li class="inner-header-item"><a class="inner-header-link" href="#">Студия</a></li>
           <li class="inner-header-item"><a class="inner-header-link" href="#">Клиенты</a></li>
-          <li class="inner-header-item"><a class="inner-header-link" href="catalog.html">Магазин</a></li>
+          <li class="inner-header-item"><a class="inner-header-link inner-header-link-current" href="catalog.html">Магазин</a></li>
           <li class="inner-header-item"><a class="inner-header-link" href="#">Контакты</a></li>
         </ul>
         <ul class="navigation-list-cart">
@@ -22,9 +21,10 @@
         </ul>
       </nav>
       <h1 class="inner-header-title">Магазин готовых шаблонов</h1>
-      </div>
     </header>
     <main class="container">
+    <div class="wrapper-filters-site">
+      <div class="wrapper-filters">
       <section class="content-filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
         <form class="content-filters-form" method="get" action="https://echo.htmlacademy.ru">
@@ -44,9 +44,9 @@
                 </div>
               </div>
               <div class="filtres-price-cost">
-                <label class="visually-hidden" for="costmin">от</label>
+                <label class="price-cost-of" for="costmin">от</label>
                 <input class="price-cost-min" id="costmin" value="0">
-                <label class="price-cost-separator" for="costmax">до</label>
+                <label class="price-cost-to" for="costmax">до</label>
                 <input class="price-cost-max" id="costmax" value="15 000">
               </div>
             </fieldset>
@@ -95,6 +95,8 @@
             <button class="filters-form-button" type="submit" tabindex="0">Показать</button>
         </form>
       </section>
+      </div>
+      <div class="wrapper-sorting-site">
       <section class="content-sorting">
           <h2 class="content-sorting-title">Сортировать:</h2>
           <ul class="content-sorting-list">
@@ -188,6 +190,8 @@
               <li class="pages-item"><a class="pages-list-link pages-link-next" href="next.html">Следующая</a></li>
             </ul>
           </div>
+      </div>
+      </div>
     </main>
     <footer class="main-footer container">
         <div class="footer-map">
